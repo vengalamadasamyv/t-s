@@ -61,7 +61,7 @@ body {
 .hero {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   padding: 60px;
   background-color: rgba(30, 143, 255, 0.097);
   flex-wrap: wrap;
@@ -193,7 +193,7 @@ select {
 /* ===== Responsive Design ===== */
 @media (max-width: 992px) {
   .hero {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     padding: 20px;
   }
@@ -1384,4 +1384,5 @@ select {
 
 .pos{
   display: none;
+
 }
